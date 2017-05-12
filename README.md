@@ -1,12 +1,12 @@
 # pyBinSim_AppExamples
-Different applications and using pyBinSim 
+Different applications using pyBinSim 
 
 
 
 ## Install pyBinSim
 
     $ conda create --name binsim35 python=3.5 numpy scipy
-    $ source activate binsim35  # only activate binsim35 on win
+    $ source activate binsim35  # on windows: activate binsim35
     $ pip install pybinsim
         
 ## Start Demo1
