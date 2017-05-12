@@ -1,4 +1,4 @@
-# pyBinSim_AppExamples
+# pyBinSim Demo Repository
 Different applications using pyBinSim 
 
 
