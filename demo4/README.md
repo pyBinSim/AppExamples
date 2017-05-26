@@ -2,7 +2,7 @@
 Different applications using pyBinSim 
 
 ## Demo4 - Use tracking data from Oculus Rift
-This example shows, how to use the tracking data of the Oculus Rift. Please check, whether the ovr1130.py is already a python3-version, otherwise replace it with 
+This example shows, how to use the tracking data of the Oculus Rift. Please check, whether the ovr1130.py in your pyovr-installation is already a python3-version. Otherwise replace it with 
 https://github.com/cmbruns/pyovr/blob/c49d98474761539b4cbc8b825de98f56d547bfc2/ovr/_ovr1130.py
 
 
