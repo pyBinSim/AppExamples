@@ -5,6 +5,7 @@ import sys
 import time
 import ovr
 import math
+import argparse
 
 
 
@@ -33,7 +34,7 @@ def start_tracker_app():
 				
 	# Internal settings:
 	positionVector=np.arange(360)
-	positionVectorSubSampled=xrange(0,360,minAngleDifference)
+	positionVectorSubSampled=range(0,360,minAngleDifference)
 				
 	# Create OSC client 
 	parser = argparse.ArgumentParser()
@@ -48,7 +49,7 @@ def start_tracker_app():
 	ovr.initialize(None)
 	session, luid = ovr.create()
 	hmdDesc = ovr.getHmdDesc(session)
-	print hmdDesc.ProductName
+	print(hmdDesc.ProductName)
 	
 
 	try :
